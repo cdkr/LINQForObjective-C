@@ -8,12 +8,13 @@ Pod::Spec.new do |s|
                    Bringing LINQ-style APIs to Objective-C. 
                    Helping querying and multiplating collections.
                    DESC
+  s.homepage     = "https://github.com/cdkr/LINQForObjective-C.git" 
             
   s.license      = "MIT"
 
   s.author             = { "Yao Long" => "yaolongscope@gmail.com" }
 
-  s.source       = { :git => "http://github.com/cdkr/LINQForObjective-C.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/cdkr/LINQForObjective-C.git", :tag => "0.0.1" }
 
   s.source_files  = "OCLinq.{h,m}"
 

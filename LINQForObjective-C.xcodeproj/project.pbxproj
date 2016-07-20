@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE36A3451D3F504000243845 /* OCLinq.m in Sources */ = {isa = PBXBuildFile; fileRef = DE36A3441D3F504000243845 /* OCLinq.m */; };
 		DE9C24D51D3CCDF9004689E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C24D41D3CCDF9004689E3 /* main.m */; };
-		DE9C24DD1D3CD10A004689E3 /* OCLinq.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C24DC1D3CD10A004689E3 /* OCLinq.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE36A3431D3F504000243845 /* OCLinq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCLinq.h; sourceTree = SOURCE_ROOT; };
+		DE36A3441D3F504000243845 /* OCLinq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCLinq.m; sourceTree = SOURCE_ROOT; };
 		DE9C24D11D3CCDF9004689E3 /* LINQForObjective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LINQForObjective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9C24D41D3CCDF9004689E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE9C24DB1D3CD10A004689E3 /* OCLinq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCLinq.h; sourceTree = "<group>"; };
-		DE9C24DC1D3CD10A004689E3 /* OCLinq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCLinq.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DE9C24D41D3CCDF9004689E3 /* main.m */,
-				DE9C24DB1D3CD10A004689E3 /* OCLinq.h */,
-				DE9C24DC1D3CD10A004689E3 /* OCLinq.m */,
+				DE36A3431D3F504000243845 /* OCLinq.h */,
+				DE36A3441D3F504000243845 /* OCLinq.m */,
 			);
 			path = "LINQForObjective-C";
 			sourceTree = "<group>";
@@ -123,8 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9C24DD1D3CD10A004689E3 /* OCLinq.m in Sources */,
 				DE9C24D51D3CCDF9004689E3 /* main.m in Sources */,
+				DE36A3451D3F504000243845 /* OCLinq.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
